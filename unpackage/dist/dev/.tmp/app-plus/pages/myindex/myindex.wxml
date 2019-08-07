@@ -1,0 +1,1 @@
+<view class="uni-content"><view>{{Myindex.balance}}</view><view>{{Myindex.signOut}}</view><view>{{Myindex.cancel}}</view><view>{{Myindex.confirm}}</view><button type="primary" data-event-opts="{{[['tap',[['changeLanage',['$event']]]]]}}" bindtap="__e">{{Myindex.langSelect}}</button><view>{{"locale: "+locale}}</view></view>
