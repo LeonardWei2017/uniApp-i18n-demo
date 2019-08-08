@@ -1065,71 +1065,36 @@ Z([3,'content'])
 Z([3,'logo'])
 Z([3,'/static/logo.png'])
 Z([3,'text-area'])
-Z([3,'title'])
-Z([a,[[7],[3,'title']]])
+Z([a,[[6],[[7],[3,'i18n']],[3,'hello']]])
+Z([a,[[6],[[6],[[7],[3,'i18n']],[3,'common']],[3,'hello']]])
+Z([3,'__e'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'go']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([3,'primary'])
+Z([3,'跳转'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
 }
 function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'uni-content'])
-Z([a,[[2,'+'],[1,'keyword:'],[[6],[[7],[3,'T_D']],[3,'keyword']]]])
-Z([a,[[2,'+'],[1,'search:'],[[6],[[7],[3,'T_D']],[3,'search']]]])
-Z([a,[[2,'+'],[1,'staff:'],[[6],[[7],[3,'T_D']],[3,'staff']]]])
-Z([a,[[2,'+'],[1,'service:'],[[6],[[7],[3,'T_D']],[3,'service']]]])
+Z([3,'uni-list-cell-db'])
 Z([3,'__e'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'changeLanage']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[4],[[5],[[4],[[5],[[5],[1,'change']],[[4],[[5],[[4],[[5],[[5],[1,'bindPickerChange']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[7],[3,'langList']])
+Z([[7],[3,'ind']])
+Z([3,'uni-input'])
+Z([a,[[6],[[7],[3,'langList']],[[7],[3,'ind']]]])
+Z(z[1])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'go']],[[4],[[5],[1,'$event']]]]]]]]]]])
 Z([3,'primary'])
-Z([a,[[6],[[7],[3,'T_D']],[3,'selectlanguage']]])
-Z(z[5])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'gouserbing']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z(z[7])
-Z([3,'按钮'])
-Z([a,[[2,'+'],[1,'locale: '],[[7],[3,'locale']]]])
+Z([3,'返回'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
-}
-function gz$gwx_3(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
-__WXML_GLOBAL__.ops_cached.$gwx_3=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'uni-content'])
-Z([a,[[6],[[7],[3,'Myindex']],[3,'balance']]])
-Z([a,[[6],[[7],[3,'Myindex']],[3,'signOut']]])
-Z([a,[[6],[[7],[3,'Myindex']],[3,'cancel']]])
-Z([a,[[6],[[7],[3,'Myindex']],[3,'confirm']]])
-Z([3,'__e'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'changeLanage']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([3,'primary'])
-Z([a,[[6],[[7],[3,'Myindex']],[3,'langSelect']]])
-Z([a,[[2,'+'],[1,'locale: '],[[7],[3,'locale']]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
-}
-function gz$gwx_4(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
-__WXML_GLOBAL__.ops_cached.$gwx_4=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'uni-content'])
-Z([a,[[6],[[7],[3,'user_bing']],[3,'bindPhoneNumber']]])
-Z([a,[[6],[[7],[3,'user_bing']],[3,'bindPhoneNumberForFirstLogin']]])
-Z([a,[[6],[[7],[3,'user_bing']],[3,'needAuthorization']]])
-Z([a,[[6],[[7],[3,'user_bing']],[3,'pleaseselectlanguage']]])
-Z([3,'__e'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'changeLanage']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([3,'primary'])
-Z([a,[[6],[[7],[3,'user_bing']],[3,'password']]])
-Z(z[5])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'gouserbing']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z(z[7])
-Z([3,'跳转到myindex'])
-Z([a,[[2,'+'],[1,'locale: '],[[7],[3,'locale']]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./pages/index/index.wxml','./pages/myhome/myhome.wxml','./pages/myindex/myindex.wxml','./pages/userbing/userbing.wxml'];d_[x[0]]={}
+var x=['./pages/index/index.wxml','./pages/language/language.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 var oB=_n('view')
@@ -1138,12 +1103,19 @@ var xC=_mz(z,'image',['class',1,'src',1],[],e,s,gg)
 _(oB,xC)
 var oD=_n('view')
 _rz(z,oD,'class',3,e,s,gg)
-var fE=_n('text')
-_rz(z,fE,'class',4,e,s,gg)
-var cF=_oz(z,5,e,s,gg)
+var fE=_n('view')
+var cF=_oz(z,4,e,s,gg)
 _(fE,cF)
 _(oD,fE)
+var hG=_n('view')
+var oH=_oz(z,5,e,s,gg)
+_(hG,oH)
+_(oD,hG)
 _(oB,oD)
+var cI=_mz(z,'button',['bindtap',6,'data-event-opts',1,'type',2],[],e,s,gg)
+var oJ=_oz(z,9,e,s,gg)
+_(cI,oJ)
+_(oB,cI)
 _(r,oB)
 return r
 }
@@ -1151,110 +1123,27 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var oH=_n('view')
-_rz(z,oH,'class',0,e,s,gg)
-var cI=_n('view')
-var oJ=_oz(z,1,e,s,gg)
-_(cI,oJ)
-_(oH,cI)
-var lK=_n('view')
-var aL=_oz(z,2,e,s,gg)
-_(lK,aL)
-_(oH,lK)
+var aL=_n('view')
 var tM=_n('view')
-var eN=_oz(z,3,e,s,gg)
-_(tM,eN)
-_(oH,tM)
+_rz(z,tM,'class',0,e,s,gg)
+var eN=_mz(z,'picker',['bindchange',1,'data-event-opts',1,'range',2,'value',3],[],e,s,gg)
 var bO=_n('view')
-var oP=_oz(z,4,e,s,gg)
+_rz(z,bO,'class',5,e,s,gg)
+var oP=_oz(z,6,e,s,gg)
 _(bO,oP)
-_(oH,bO)
-var xQ=_mz(z,'button',['bindtap',5,'data-event-opts',1,'type',2],[],e,s,gg)
-var oR=_oz(z,8,e,s,gg)
+_(eN,bO)
+_(tM,eN)
+_(aL,tM)
+var xQ=_n('view')
+var oR=_mz(z,'button',['bindtap',7,'data-event-opts',1,'type',2],[],e,s,gg)
+var fS=_oz(z,10,e,s,gg)
+_(oR,fS)
 _(xQ,oR)
-_(oH,xQ)
-var fS=_mz(z,'button',['bindtap',9,'data-event-opts',1,'type',2],[],e,s,gg)
-var cT=_oz(z,12,e,s,gg)
-_(fS,cT)
-_(oH,fS)
-var hU=_n('view')
-var oV=_oz(z,13,e,s,gg)
-_(hU,oV)
-_(oH,hU)
-_(r,oH)
+_(aL,xQ)
+_(r,aL)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[2]]={}
-var m2=function(e,s,r,gg){
-var z=gz$gwx_3()
-var oX=_n('view')
-_rz(z,oX,'class',0,e,s,gg)
-var lY=_n('view')
-var aZ=_oz(z,1,e,s,gg)
-_(lY,aZ)
-_(oX,lY)
-var t1=_n('view')
-var e2=_oz(z,2,e,s,gg)
-_(t1,e2)
-_(oX,t1)
-var b3=_n('view')
-var o4=_oz(z,3,e,s,gg)
-_(b3,o4)
-_(oX,b3)
-var x5=_n('view')
-var o6=_oz(z,4,e,s,gg)
-_(x5,o6)
-_(oX,x5)
-var f7=_mz(z,'button',['bindtap',5,'data-event-opts',1,'type',2],[],e,s,gg)
-var c8=_oz(z,8,e,s,gg)
-_(f7,c8)
-_(oX,f7)
-var h9=_n('view')
-var o0=_oz(z,9,e,s,gg)
-_(h9,o0)
-_(oX,h9)
-_(r,oX)
-return r
-}
-e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[3]]={}
-var m3=function(e,s,r,gg){
-var z=gz$gwx_4()
-var oBB=_n('view')
-_rz(z,oBB,'class',0,e,s,gg)
-var lCB=_n('view')
-var aDB=_oz(z,1,e,s,gg)
-_(lCB,aDB)
-_(oBB,lCB)
-var tEB=_n('view')
-var eFB=_oz(z,2,e,s,gg)
-_(tEB,eFB)
-_(oBB,tEB)
-var bGB=_n('view')
-var oHB=_oz(z,3,e,s,gg)
-_(bGB,oHB)
-_(oBB,bGB)
-var xIB=_n('view')
-var oJB=_oz(z,4,e,s,gg)
-_(xIB,oJB)
-_(oBB,xIB)
-var fKB=_mz(z,'button',['bindtap',5,'data-event-opts',1,'type',2],[],e,s,gg)
-var cLB=_oz(z,8,e,s,gg)
-_(fKB,cLB)
-_(oBB,fKB)
-var hMB=_mz(z,'button',['bindtap',9,'data-event-opts',1,'type',2],[],e,s,gg)
-var oNB=_oz(z,12,e,s,gg)
-_(hMB,oNB)
-_(oBB,hMB)
-var cOB=_n('view')
-var oPB=_oz(z,13,e,s,gg)
-_(cOB,oPB)
-_(oBB,cOB)
-_(r,oBB)
-return r
-}
-e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -1379,17 +1268,11 @@ setCssToHead([])();setCssToHead([[2,0]],undefined,{path:"./app.wxss"})();
 __wxAppCode__['app.wxss']=setCssToHead([[2,0]],undefined,{path:"./app.wxss"});    
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
-__wxAppCode__['pages/index/index.wxss']=setCssToHead([".",[1],"content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"logo { height: ",[0,200],"; width: ",[0,200],"; margin-top: ",[0,200],"; margin-left: auto; margin-right: auto; margin-bottom: ",[0,50],"; }\n.",[1],"text-area { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/index.wxss"});    
+__wxAppCode__['pages/index/index.wxss']=setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"logo { height: ",[0,200],"; width: ",[0,200],"; margin-top: ",[0,200],"; margin-left: auto; margin-right: auto; margin-bottom: ",[0,50],"; }\n.",[1],"text-area { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }\n.",[1],"title { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/index.wxss"});    
 __wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
 
-__wxAppCode__['pages/myhome/myhome.wxss']=undefined;    
-__wxAppCode__['pages/myhome/myhome.wxml']=$gwx('./pages/myhome/myhome.wxml');
-
-__wxAppCode__['pages/myindex/myindex.wxss']=undefined;    
-__wxAppCode__['pages/myindex/myindex.wxml']=$gwx('./pages/myindex/myindex.wxml');
-
-__wxAppCode__['pages/userbing/userbing.wxss']=undefined;    
-__wxAppCode__['pages/userbing/userbing.wxml']=$gwx('./pages/userbing/userbing.wxml');
+__wxAppCode__['pages/language/language.wxss']=undefined;    
+__wxAppCode__['pages/language/language.wxml']=$gwx('./pages/language/language.wxml');
 
 ;var __pageFrameEndTime__ = Date.now();
 (function() {

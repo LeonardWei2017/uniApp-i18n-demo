@@ -1,31 +1,28 @@
-import Vue from 'vue'
 import Vuex from 'vuex'
+import Vue from 'vue'
 
 Vue.use(Vuex)
-
- const store = new Vuex.Store({
-  state: {
-	  locale:'zh_CN',
-	  ind:0
-  },
-  mutations: {
-	  changestate(state){
-		  if(state.ind == '0'){
-		  	state.locale = 'zh_CN';
-		  }else if (state.ind == '1') {
-		  	state.locale = 'en';
-		  }  else{
-			  state.locale = 'EN_franch';
-		  }
-		   console.log(state.locale);
-	  },
-	  changeind(state,payload){
-		  state.ind = payload.ind
-		  console.log(state.ind);
-	  }
-  },
-  actions: {
-
-  }
+const store = new Vuex.Store({
+	state: {
+		locale: 'cn'
+	},
+	mutations: {
+		// login(state, provider) {  
+		//     console.log(state)  
+		//     console.log(provider)  
+		//     state.login = true;  
+		//     state.token = provider.token;  
+		//     state.userName = provider.userName;  
+		//     state.avatarUrl = provider.avatarUrl;  
+		// },  
+		// logout(state) {  
+		//     state.login = false;  
+		//     state.token = '';  
+		//     state.userName = '';  
+		//     state.avatarUrl = '';  
+		// } 
+		
+		
+	}
 })
 export default store

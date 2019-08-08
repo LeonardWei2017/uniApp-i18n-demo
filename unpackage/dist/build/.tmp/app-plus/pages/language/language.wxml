@@ -1,0 +1,1 @@
+<view><view class="uni-list-cell-db"><picker value="{{ind}}" range="{{langList}}" data-event-opts="{{[['change',[['bindPickerChange',['$event']]]]]}}" bindchange="__e"><view class="uni-input">{{langList[ind]}}</view></picker></view><view><button type="primary" data-event-opts="{{[['tap',[['go',['$event']]]]]}}" bindtap="__e">返回</button></view></view>

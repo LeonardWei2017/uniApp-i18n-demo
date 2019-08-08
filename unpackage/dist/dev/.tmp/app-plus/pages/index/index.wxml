@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><view>{{i18n.hello}}</view><view>{{i18n.common.hello}}</view></view><button type="primary" data-event-opts="{{[['tap',[['go',['$event']]]]]}}" bindtap="__e">跳转</button></view>

@@ -1,24 +1,25 @@
 import Vue from 'vue'
 import App from './App'
-// import store from './store'
-import i18n from './commons/i18n.js'  
-import en from './commons/language/en.js'
-import zh_CN from './commons/language/zh_CN.js'
-import EN_franch from './commons/language/EN_franch.js'
-import store from './store'  
-
-Vue.prototype.$store = store  
-
-i18n.registerLocale({en,zh_CN,EN_franch})
-
+import Vuex from 'vuex'
+import store from './store'
+import VueI18n from 'vue-i18n'
 Vue.config.productionTip = false
 
-Vue.prototype._i18n = i18n 
+Vue.use(Vuex)
+Vue.prototype.$store = store
+Vue.use(VueI18n)
 App.mpType = 'app'
+const i18n = new VueI18n({
+	locale: uni.getStorageSync('locale')||"cn", //默认为中文简体
+	messages: {
+		
+	}
+})
+Vue.prototype._i18n = i18n
 
 const app = new Vue({
-     i18n,  
-	 store,
-    ...App
+	i18n,
+	store,
+	...App
 })
 app.$mount()

@@ -1,8 +1,6 @@
 {
   "pages": [
-    "pages/myhome/myhome",
-    "pages/userbing/userbing",
-    "pages/myindex/myindex",
+    "pages/language/language",
     "pages/index/index"
   ],
   "window": {
@@ -16,7 +14,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "text-i18n",
+  "appname": "uteexApp",
   "compilerVersion": "2.1.3",
   "usingComponents": {}
 }
